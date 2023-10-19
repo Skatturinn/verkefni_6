@@ -1,7 +1,7 @@
 /* Pöntunarform */
 
 fieldset {
-	border: ($--border-small) solid ($--color-dark);
+	border: ($border-small) solid ($color-dark);
   }
   
   fieldset legend {
@@ -16,7 +16,7 @@ fieldset {
   fieldset input,
   fieldset select,
   fieldset textarea {
-	padding: calc(($--spacing) * 0.5);
+	padding: calc(($spacing) * 0.5);
 	width: 100%;
   }
   
@@ -26,10 +26,10 @@ fieldset {
   
   fieldset .checkbox label {
 	flex-direction: row;
-	gap: calc(($--spacing) * 0.5);
+	gap: calc(($spacing) * 0.5);
   }
   
   form button {
-	padding: calc(($--spacing) * 0.25);
-	border-radius: ($--border-radius);
+	padding: calc(($spacing) * 0.25);
+	border-radius: ($border-radius);
   }

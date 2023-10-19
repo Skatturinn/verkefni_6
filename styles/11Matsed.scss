@@ -6,11 +6,11 @@ table {
   
   table th,
   table td {
-	padding: calc(($--spacing) * 0.5);
+	padding: (($spacing) * 0.5);
 	text-align: left;
   }
   
   table tbody tr:nth-child(2n + 1) {
-	color: ($--color-dark);
-	background-color: ($--color-gold);
+	color: ($color-dark);
+	background-color: ($color-gold);
   }

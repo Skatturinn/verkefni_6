@@ -1,17 +1,17 @@
 /** Fótur **/
 
 .footer {
-	padding: ($--spacing);
-	border-top: ($--border-large) solid ($--color-gold);
+	padding: ($spacing);
+	border-top: ($border-large) solid ($color-gold);
 	width: 100%;
   
-	background-color: ($--color-dark);
-	color: ($--color-gold-light);
+	background-color: ($color-dark);
+	color: ($color-gold-light);
   }
   
   .footer .content {
 	display: grid;
-	gap: ($--vertical-space);
+	gap: ($vertical-space);
   
 	margin: 0 auto;
   
@@ -20,10 +20,10 @@
   
   @media (min-width: 500px) {
 	.footer .content {
-	  grid-template-columns: repeat(($--columns), 1fr);
+	  grid-template-columns: repeat(($columns), 1fr);
 	  grid-template-rows: auto;
   
-	  max-width: ($--max-width);
+	  max-width: ($max-width);
 	}
   
 	.footer section {

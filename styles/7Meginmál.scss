@@ -4,9 +4,9 @@
 	display: grid;
 	grid-template-rows: auto;
 	grid-template-columns: 100%;
-	gap: ($--vertical-space);
+	gap: ($vertical-space);
   
-	width: ($--width-offset);
-	max-width: ($--max-width);
+	width: ($width-offset);
+	max-width: ($max-width);
   }
   
