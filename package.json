@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "browser-sync": "browser-sync start --server --files index.html styles.css",
-    "sass": "sass styles.scss styles.css -w"
+    "sass": "sass styles.scss styles.css -w",
+    "dev": "concurrently npm:sass npm:sass",
+    "lint": "stylelint styles.scss --config .stylelintrc"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +18,7 @@
   },
   "dependencies": {
     "concurrently": "^8.2.2",
-    "stylelint": "^15.11.0"
+    "stylelint": "^15.11.0",
+    "stylelint-config-sass-guidelines": "^10.0.0"
   }
 }
