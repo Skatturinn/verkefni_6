@@ -4,14 +4,14 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: var(--spacing);
+	gap: ($--spacing);
   
-	padding-top: var(--spacing);
+	padding-top: ($--spacing);
 	width: 100%;
-	border-bottom: var(--border-large) solid var(--color-gold);
+	border-bottom: ($--border-large) solid ($--color-gold);
   
-	background-color: var(--color-dark);
-	color: var(--color-gold-light);
+	background-color: ($--color-dark);
+	color: ($--color-gold-light);
   }
   
   .header header {
@@ -19,7 +19,7 @@
 	flex-direction: column;
 	align-items: center;
   
-	max-width: var(--width-offset);
+	max-width: ($--width-offset);
   
 	text-align: center;
   }

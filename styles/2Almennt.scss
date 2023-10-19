@@ -3,17 +3,17 @@ html,
 input,
 select,
 button {
-  font-size: var(--font-base-body-px);
-  font-family: var(--font-family-base);
+  font-size: ($--font-base-body-px);
+  font-family: ($--font-family-base);
 }
 
 h1,
 h2,
 h3 {
   /* Setjum almennt bil á eftir fyrirsögnum */
-  margin-bottom: var(--spacing);
+  margin-bottom: ($--spacing);
 
-  font-family: var(--font-family-heading);
+  font-family: ($--font-family-heading);
 }
 
 a {
@@ -50,5 +50,5 @@ img {
   
   .header,
   .main {
-	animation: var(--transition-time-long) var(--transition-timing-function) fade-in;
+	animation: ($--transition-time-long) ($--transition-timing-function) fade-in;
   }

@@ -4,21 +4,21 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding: var(--spacing) 0;
+	padding: ($--spacing) 0;
 	width: 100%;
   
-	background-color: var(--color-light);
-	color: var(--color-dark);
+	background-color: ($--color-light);
+	color: ($--color-dark);
   }
   
   .navigation ul {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	gap: var(--spacing);
+	gap: ($--spacing);
   
 	width: 100%;
-	max-width: var(--width-offset);
+	max-width: ($--width-offset);
   
 	list-style: none;
   }

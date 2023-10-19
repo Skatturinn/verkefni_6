@@ -8,6 +8,6 @@
 	/* grid items eru miðjuð */
 	justify-items: center;
   
-	gap: var(--vertical-space);
+	gap: ($--vertical-space);
   }
   
